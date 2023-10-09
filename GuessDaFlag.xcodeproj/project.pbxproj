@@ -11,6 +11,7 @@
 		C16A38562AD0D04500AB21D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A38552AD0D04500AB21D6 /* ContentView.swift */; };
 		C16A38582AD0D04600AB21D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16A38572AD0D04600AB21D6 /* Assets.xcassets */; };
 		C16A385B2AD0D04600AB21D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16A385A2AD0D04600AB21D6 /* Preview Assets.xcassets */; };
+		C16E39DA2AD1CB7100560EB2 /* TestUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16E39D92AD1CB7100560EB2 /* TestUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C16A38552AD0D04500AB21D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C16A38572AD0D04600AB21D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C16A385A2AD0D04600AB21D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C16E39D92AD1CB7100560EB2 /* TestUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		C16A38522AD0D04500AB21D6 /* GuessDaFlag */ = {
 			isa = PBXGroup;
 			children = (
+				C16E39D82AD1CB5600560EB2 /* Test */,
 				C16A38532AD0D04500AB21D6 /* GuessDaFlagApp.swift */,
 				C16A38552AD0D04500AB21D6 /* ContentView.swift */,
 				C16A38572AD0D04600AB21D6 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				C16A385A2AD0D04600AB21D6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C16E39D82AD1CB5600560EB2 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				C16E39D92AD1CB7100560EB2 /* TestUI.swift */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C16A38562AD0D04500AB21D6 /* ContentView.swift in Sources */,
+				C16E39DA2AD1CB7100560EB2 /* TestUI.swift in Sources */,
 				C16A38542AD0D04500AB21D6 /* GuessDaFlagApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
