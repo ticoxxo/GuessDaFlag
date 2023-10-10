@@ -14,10 +14,10 @@
             filePath = "GuessDaFlag/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
-            landmarkName = "ContentView"
-            landmarkType = "14">
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "askQuestion()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -30,8 +30,8 @@
             filePath = "GuessDaFlag/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
             landmarkName = "askQuestion()"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,10 +46,10 @@
             filePath = "GuessDaFlag/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
-            landmarkName = "ContentView"
-            landmarkType = "14">
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "flagTapped(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -62,8 +62,8 @@
             filePath = "GuessDaFlag/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
             landmarkName = "askQuestion()"
             landmarkType = "7">
          </BreakpointContent>

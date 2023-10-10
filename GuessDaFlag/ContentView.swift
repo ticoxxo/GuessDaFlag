@@ -49,9 +49,7 @@ struct ContentView: View {
                                 flagTapped(number)
                                 print("Clicked \(countries[number])")
                             } label: {
-                                Image(countries[number])
-                                    .renderingMode(.original)
-                                    .shadow(radius: 5)
+                                FlagImage(country: countries[number])
                             }
                             .alert(scoreTitle, isPresented: $showinScore) {
                                 Button("Continue", action: askQuestion)
@@ -118,6 +116,16 @@ struct ContentView: View {
         }
         
         return try! AttributedString(markdown: res)
+    }
+    
+}
+
+struct FlagImage: View {
+    var country: String
+    
+    var body: some View {
+        Image(country).renderingMode(.original)
+            .shadow(radius: 5)
     }
     
 }
