@@ -42,7 +42,7 @@ struct ContentView: View {
                                 .foregroundStyle(.secondary)
                                 .font(.subheadline.weight(.heavy))
                             Text(countries[correctAnswer])
-                                .font(.largeTitle.weight(.semibold))
+                                .largeTitleBlue()
                         }
                         ForEach(0..<3) { number in
                             Button {
@@ -118,6 +118,20 @@ struct ContentView: View {
         return try! AttributedString(markdown: res)
     }
     
+}
+
+struct Title: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.largeTitle)
+            .foregroundColor(.blue)
+    }
+}
+
+extension View {
+    func largeTitleBlue() -> some View {
+        modifier(Title())
+    }
 }
 
 struct FlagImage: View {
